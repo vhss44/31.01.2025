@@ -1,0 +1,90 @@
+
+*
+{
+
+    margin: 0;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #efefef;
+}
+header
+{
+    background-color: #7886C7;
+    padding: 15px;
+    transition: 0.3s;
+    text-align: center;
+    color: #fffdfd;
+    box-shadow:rgba(9, 30, 66, 0.15) 0px 0.5rem 1rem 0px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+section h2
+{
+    color: #2D336B;
+}
+section
+{
+    margin-top: 30px;
+    width: 80%;
+    background: #fffdfd;
+    box-shadow:rgba(9, 30, 66, 0.15) 0px 0.5rem 1rem 0px;
+    border-radius: 8px;
+    padding: 10px;
+}
+main
+{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+ul li, span
+{
+    color: #2D336B;
+    font-weight: bold;
+    list-style-type: disc;
+}
+
+
+aside
+{
+    background-color: #fffdfd;
+    box-shadow:rgba(9, 30, 66, 0.15) 0px 0.5rem 1rem 0px;
+    border-radius: 8px;
+    width: 30%;
+    margin: auto;
+    margin-top: 130px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+aside a:not(.stronaGlowna)
+{
+    text-decoration: none;
+    color: #2D336B;
+}
+.stronaGlowna
+{
+    color: #7886C7;
+}
+aside:hover
+{
+    background-color: #7886C7;
+
+}
+aside:hover .stronaGlowna
+{
+    color: #fffdfd;
+}
+footer
+{
+    background-color: #2D336B;
+    width: 100%;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 8px;
+    box-shadow: 0px -14px 31px -10px rgba(96, 106, 255, 1);
+}
